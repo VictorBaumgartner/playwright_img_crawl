@@ -1,0 +1,460 @@
+{
+  "url": "https://www.louvre.fr/",
+  "model_used": "blip-image-captioning-base",
+  "images": [
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-03/OO241031.img_.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the gardens at chateau chateau",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-09/paysage-etienne-allegrain.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a landscape with a river and a castle",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-01/Atelier%20adultes%20Face%20aux%20%C2%9Coeuvres%2C%20le%20croquis%20%C2%A9%20Mus%C3%A9e%20du%20Louvre%20%20Florence%20Brochoire.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a man sitting on a bench in a building",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/SOLLIMA-006-sIMG_20180728_055746-SHOBHA_copyright.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a man in a boat on the water",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-02/jardin-des-tuileries-enfleurissement-2019-allee-du-grand-couvert.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a street with trees and bushes in front of a building",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-04/VICTOR_HUGO.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a drawing of a man with a sword",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-01/cimabue-la-derision-du-christ-vers-1240-1302-musee-du-louvre.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a painting of a group of people",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-01/Atelier%20adultes%20Face%20aux%20%C2%9Coeuvres%2C%20le%20croquis%20%C2%A9%20Mus%C3%A9e%20du%20Louvre%20%20Florence%20Brochoire.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a man sitting on a bench in a building",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-01/visuel-de-l-exposition-l-experience-de-la-nature-amor-allegorie-du-printemps.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a painting with many different animals and birds",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-01/Mamloukweb.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a gold and silver vase with figures",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-03/Personnages%20costum%C3%A9s%20%28c%29%20Mus%C3%A9d%20du%20Louvre%20-%20Thomas%20Petit.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a painting of two women sitting on a bench",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-06/les-saisons-le-printemps-apres-restauration_1.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a painting of a man with flowers in his head",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/la-vierge-et-l-enfant-en-majeste-entoures-de-six-anges-dite-la-maesta.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the virgin and angels",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-02/appartements-napoleon-iii-le-grand-salon.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a room with a chandel and a chandel",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-01/Mamloukweb.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a gold and silver vase with figures",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-01/Forum%20Louvre%20Couture%20%28c%29%20VDL%202.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a long red carpet",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/la-vierge-et-l-enfant-en-majeste-entoures-de-six-anges-dite-la-maesta.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the virgin and angels",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-09/paysage-etienne-allegrain.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a landscape with a river and a castle",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-04/TO110024.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a statue of a woman with long hair",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-02/Louvre-Tuileries-Fleurissement-2019-139.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a large building in the background",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/MINIATURE%20DE%20LA%20S%C3%89RIE%20%C3%89DITORIALE.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the cover of the album, le morts de l ' amour",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-03/OO241031.img_.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the gardens at chateau chateau",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-03/FC_LOUVRE_1400X1400.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the cover of the novel, ' love '",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/Simply-Quartet%204%20cr%20Simon%20Buchou.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a group of musicians standing in a hallway",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-07/les-appartements-napoleon-iii-apres-renovation_1.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the royal suite at the palace of versailles",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-02/henri-horace-roland-delaporte-la-petite-collation-ou-carafe-d-orgeat.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a painting of a basket of food and a glass of milk",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-01/artemis-a-la-biche-dite-diane-de-versailles.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a statue of a woman holding a goat",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-04/VICTOR_HUGO.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a drawing of a man with a sword",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-02/escalier-mollien-aile-denon_1.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a large building with a staircase and a clock",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-09/paysage-etienne-allegrain.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a landscape with a river and a castle",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/la-vierge-et-l-enfant-en-majeste-entoures-de-six-anges-dite-la-maesta.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the virgin and angels",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/Simply-Quartet%204%20cr%20Simon%20Buchou.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a group of musicians standing in a hallway",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-09/visuel-clef-homepage-2024.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a painting of a woman holding a key",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-02/visiteurs-dans-la-salle-daru.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a couple looking at paintings in a museum",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-02/le-scribe-accroupi-detail.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a close up of a statue of a woman",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-01/Forum%20Louvre%20Couture%20%28c%29%20VDL%202.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a long red carpet",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-02/appartements-napoleon-iii-le-grand-salon.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a room with a chandel and a chandel",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/de-toutes-beautes-affiche.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a col with a picture of a woman and a vase",
+        "content_type": "sexual",
+        "confidence": 0.855991005897522
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/de-toutes-beautes-affiche.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a col with a picture of a woman and a vase",
+        "content_type": "sexual",
+        "confidence": 0.855991005897522
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-01/cour-napoleon-et-pyramide_1.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a large building with a pyramid shaped glass roof",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-02/le-scribe-accroupi-detail.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a clay statue of a man holding a book",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/la-vierge-et-l-enfant-en-majeste-entoures-de-six-anges-dite-la-maesta.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the virgin and angels",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-01/leonard-de-vinci-portrait-de-monna-lisa-dite-la-joconde.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a painting of a woman with a smile",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2021-03/la-grande-galerie.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a long wooden floor",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-03/FC_LOUVRE_1400X1400.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the cover of the novel, ' love '",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-01/visuel-de-l-exposition-l-experience-de-la-nature-amor-allegorie-du-printemps.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a painting with many different animals and birds",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2020-12/salle-du-pavillon-des-sessions.png",
+      "alt": "",
+      "analysis": {
+        "description": "a glass display case",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-03/Studio%20-%20Louvre%20Couture%20-%20La%20f%C3%AAte%20de%20la%20Mode.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a group of people working in a large room",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2024-11/MINIATURE%20DE%20LA%20S%C3%89RIE%20%C3%89DITORIALE.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "the cover of the album, le morts de l ' amour",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    },
+    {
+      "src": "https://api-www.louvre.fr/sites/default/files/2025-03/Studio%20-%20Louvre%20Couture%20-%20La%20f%C3%AAte%20de%20la%20Mode.jpg",
+      "alt": "",
+      "analysis": {
+        "description": "a group of people working in a large room",
+        "content_type": "normal",
+        "confidence": 0.0
+      }
+    }
+  ],
+  "stats": {
+    "total_images": 50,
+    "sensitive_content": 2
+  }
+}
