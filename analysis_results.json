@@ -1,0 +1,602 @@
+[
+  {
+    "image_url": "/assets/logo-amis-blanc-web@2x.png",
+    "error": "Image file not found: /assets/logo-amis-blanc-web@2x.png"
+  },
+  {
+    "image_url": "/assets/Logo_Pierre_Bernard.jpg",
+    "error": "Image file not found: /assets/Logo_Pierre_Bernard.jpg"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2020-12/salle-du-pavillon-des-sessions.png",
+    "error": "('Connection broken: IncompleteRead(364254 bytes read, 2979334 more expected)', IncompleteRead(364254 bytes read, 2979334 more expected))"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-01/Atelier%20adultes%20Face%20aux%20%C2%9Coeuvres%2C%20le%20croquis%20%C2%A9%20Mus%C3%A9e%20du%20Louvre%20%20Florence%20Brochoire.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "5d97c80cbc7b6975d5ce2f8f86dd6ecc"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-01/visuel-de-l-exposition-l-experience-de-la-nature-amor-allegorie-du-printemps.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "33721e33f520d8c0a3556a93f5a84d7c"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-03/OO241031.img_.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "083e967679bf20221d8f80cde222bed6"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/MINIATURE%20DE%20LA%20S%C3%89RIE%20%C3%89DITORIALE.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "7b0ff738cb3f300854c33d0d27689503"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/de-toutes-beautes-affiche.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "0114cce912caaf7bc9d42bbbc2a549b0"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-01/Atelier%20adultes%20Face%20aux%20%C2%9Coeuvres%2C%20le%20croquis%20%C2%A9%20Mus%C3%A9e%20du%20Louvre%20%20Florence%20Brochoire.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "5d97c80cbc7b6975d5ce2f8f86dd6ecc"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-03/Personnages%20costum%C3%A9s%20%28c%29%20Mus%C3%A9d%20du%20Louvre%20-%20Thomas%20Petit.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "09c5761966036781f8f77ed2bec212b0"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-01/visuel-de-l-exposition-l-experience-de-la-nature-amor-allegorie-du-printemps.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "33721e33f520d8c0a3556a93f5a84d7c"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-09/paysage-etienne-allegrain.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "1cb52455d9141e64262a710b640ac209"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-03/FC_LOUVRE_1400X1400.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "366280279a774689ee8c5091d089119b"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-04/VICTOR_HUGO.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "3cea85c464ff109546de53ec97c2b738"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-01/Forum%20Louvre%20Couture%20%28c%29%20VDL%202.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "62029af7292359568ef98dcc4ca6d9dc"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/MINIATURE%20DE%20LA%20S%C3%89RIE%20%C3%89DITORIALE.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "7b0ff738cb3f300854c33d0d27689503"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-09/paysage-etienne-allegrain.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "1cb52455d9141e64262a710b640ac209"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-01/cimabue-la-derision-du-christ-vers-1240-1302-musee-du-louvre.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "06a161820765cf4a1b1ba46cb70d8629"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-03/OO241031.img_.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "083e967679bf20221d8f80cde222bed6"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-01/artemis-a-la-biche-dite-diane-de-versailles.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "39dc03967786b3823df7118df141c115"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-03/la-grande-galerie.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "53e0d7fd5531dc681e0a4a997bd7db98"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-04/TO110024.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "991295d1bfffcbf66326eec01fad8c09"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-04/VICTOR_HUGO.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "3cea85c464ff109546de53ec97c2b738"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-03/FC_LOUVRE_1400X1400.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "366280279a774689ee8c5091d089119b"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-01/Mamloukweb.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "e8d5215c19ece67fbebe600a69bc8abf"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-09/paysage-etienne-allegrain.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "1cb52455d9141e64262a710b640ac209"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/la-vierge-et-l-enfant-en-majeste-entoures-de-six-anges-dite-la-maesta.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "8aada5a7e2e3723e13ed755b60d9eb53"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-09/visuel-clef-homepage-2024.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "daa3a32144e3cf714a14c312866b6565"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-07/les-appartements-napoleon-iii-apres-renovation_1.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "f0298f914f110c0ff6ddf815e9d798af"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-02/visiteurs-dans-la-salle-daru.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "a38be517acd997af6245a0e3d2ea0fdb"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-01/Forum%20Louvre%20Couture%20%28c%29%20VDL%202.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "62029af7292359568ef98dcc4ca6d9dc"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/la-vierge-et-l-enfant-en-majeste-entoures-de-six-anges-dite-la-maesta.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "8aada5a7e2e3723e13ed755b60d9eb53"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/SOLLIMA-006-sIMG_20180728_055746-SHOBHA_copyright.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "371d4fda366d738eec0696d243bf9c8c"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-01/Mamloukweb.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "e8d5215c19ece67fbebe600a69bc8abf"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/la-vierge-et-l-enfant-en-majeste-entoures-de-six-anges-dite-la-maesta.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "8aada5a7e2e3723e13ed755b60d9eb53"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-02/jardin-des-tuileries-enfleurissement-2019-allee-du-grand-couvert.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "302dbff65715926d456c98ef03ac8dc3"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/de-toutes-beautes-affiche.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "0114cce912caaf7bc9d42bbbc2a549b0"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-01/leonard-de-vinci-portrait-de-monna-lisa-dite-la-joconde.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "f0c9b172067194c71f9d29b629147615"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-01/cour-napoleon-et-pyramide_1.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "173f86daffbef7abe90083e58be146bd"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-06/les-saisons-le-printemps-apres-restauration_1.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "026ca1e5cac88b266faf69f9e50b2162"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-03/Studio%20-%20Louvre%20Couture%20-%20La%20f%C3%AAte%20de%20la%20Mode.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "3683ed4905638160fcfc333946e36cf6"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-02/henri-horace-roland-delaporte-la-petite-collation-ou-carafe-d-orgeat.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "22dc3157dc80dadc6b17115a3941de01"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-03/Studio%20-%20Louvre%20Couture%20-%20La%20f%C3%AAte%20de%20la%20Mode.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "3683ed4905638160fcfc333946e36cf6"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-02/le-scribe-accroupi-detail.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "bef9ae922eca2b0f0c57d2b25a299b01"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/la-vierge-et-l-enfant-en-majeste-entoures-de-six-anges-dite-la-maesta.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "8aada5a7e2e3723e13ed755b60d9eb53"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-02/Louvre-Tuileries-Fleurissement-2019-139.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "c2beb81d47c7a0fbf1d32130a85f83b1"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2025-02/le-scribe-accroupi-detail.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "90e155e5b9b361337921c93f7ae20226"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-02/escalier-mollien-aile-denon_1.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "34c47aa950078254a090eb4920a3a2ab"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/Simply-Quartet%204%20cr%20Simon%20Buchou.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "6a1afcfe354078d07a1ec7ccab3491c7"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-02/appartements-napoleon-iii-le-grand-salon.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "112134c35b065dc6405efe1d0d971d46"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2024-11/Simply-Quartet%204%20cr%20Simon%20Buchou.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "6a1afcfe354078d07a1ec7ccab3491c7"
+  },
+  {
+    "image_url": "https://api-www.louvre.fr/sites/default/files/2021-02/appartements-napoleon-iii-le-grand-salon.jpg",
+    "description": "Vision analysis failed",
+    "moderation": {
+      "nsfw": false,
+      "confidence": 0.0,
+      "categories": [
+        "analysis_failed"
+      ]
+    },
+    "hash": "112134c35b065dc6405efe1d0d971d46"
+  }
+]
