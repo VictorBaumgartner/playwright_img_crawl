@@ -4,33 +4,43 @@ import os
 import hashlib
 import logging
 import csv
-import aiohttp # For downloading images asynchronously
+import aiohttp
 from urllib.parse import urlparse
 from playwright.async_api import async_playwright
-from flask import Flask, request, jsonify
+from flask import Flask, jsonify, send_from_directory
+from flask_restx import Api, Resource, reqparse
+from werkzeug.datastructures import FileStorage
 
 # Setup logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
+# Initialize Flask-RESTX API
+api = Api(app,
+          version='1.0',
+          title='Image Scraper API',
+          description='API to scrape and download images from websites listed in a CSV file.',
+          doc='/docs') # This sets the Swagger UI endpoint
+
+# Define a Namespace for your scraping operations
+scraper_ns = api.namespace('scraper', description='Website image scraping operations')
+
+# --- Your existing asynchronous functions (no changes needed here for logic) ---
 
 async def download_image(session, img_url, output_path):
     """Downloads an image asynchronously and saves it to a file."""
     try:
         async with session.get(img_url, timeout=30) as response:
             if response.status == 200:
-                # Get the image content type to determine file extension
                 content_type = response.headers.get('Content-Type', '').split('/')
-                extension = content_type[1] if len(content_type) > 1 else 'jpg' # Default to jpg
-
-                # Use a hash of the URL for a unique filename
+                extension = content_type[1] if len(content_type) > 1 else 'jpg'
                 img_name = hashlib.md5(img_url.encode()).hexdigest()
                 file_path = os.path.join(output_path, f"{img_name}.{extension}")
 
                 async with open(file_path, 'wb') as f:
                     while True:
-                        chunk = await response.content.read(4096) # Read in chunks
+                        chunk = await response.content.read(4096)
                         if not chunk:
                             break
                         f.write(chunk)
@@ -54,9 +64,7 @@ async def crawl_website(url):
         page = await browser.new_page()
 
         try:
-            await page.goto(url, timeout=30000)  # Increased timeout
-            
-            # Extract all image sources
+            await page.goto(url, timeout=30000)
             elements = await page.query_selector_all('img')
             for element in elements:
                 src = await element.get_attribute('src')
@@ -73,9 +81,8 @@ async def crawl_website(url):
 def create_sanitized_folder_name(url):
     """Creates a sanitized folder name from a URL."""
     parsed_url = urlparse(url)
-    # Use netloc (domain) and path for a more specific folder name
     sanitized_name = f"{parsed_url.netloc}{parsed_url.path}".replace('.', '_').replace('/', '_').replace(':', '')
-    return sanitized_name.strip('_') # Remove any leading/trailing underscores
+    return sanitized_name.strip('_')
 
 async def scrape_and_save_images(url):
     """Scrapes image URLs from a URL, downloads them, and saves them to a dedicated folder."""
@@ -88,7 +95,6 @@ async def scrape_and_save_images(url):
     
     logger.info(f"Found {len(image_urls)} image URLs on {url}. Starting downloads...")
     
-    # Create a folder named by the sanitized URL
     folder_name = create_sanitized_folder_name(url)
     output_dir = os.path.join(os.getcwd(), folder_name)
     os.makedirs(output_dir, exist_ok=True)
@@ -98,7 +104,6 @@ async def scrape_and_save_images(url):
         tasks = [download_image(session, img_url, output_dir) for img_url in image_urls]
         download_results = await asyncio.gather(*tasks)
     
-    # Save a JSON file with download results for reference
     summary_file_path = os.path.join(output_dir, "download_summary.json")
     with open(summary_file_path, 'w') as f:
         json.dump(download_results, f, indent=2)
@@ -106,38 +111,55 @@ async def scrape_and_save_images(url):
     logger.info(f"All images for {url} processed. Summary saved to {summary_file_path}")
     return {"url": url, "status": "completed image download", "total_images_processed": len(image_urls), "output_folder": output_dir}
 
-## Flask Endpoint for Image Download
+# --- Flask-RESTX Endpoint ---
 
-@app.route('/scrape-and-download-images-from-csv', methods=['POST'])
-async def scrape_and_download_images_from_csv_endpoint():
-    if 'file' not in request.files:
-        return jsonify({"error": "No file part in the request"}), 400
-    
-    file = request.files['file']
-    if file.filename == '':
-        return jsonify({"error": "No selected file"}), 400
-    
-    if file and file.filename.endswith('.csv'):
+# Define the parser for file upload
+csv_upload_parser = reqparse.RequestParser()
+csv_upload_parser.add_argument('file',
+                                type=FileStorage,
+                                location='files',
+                                required=True,
+                                help='CSV file containing URLs (one URL per line)')
+
+@scraper_ns.route('/download-images-from-csv')
+class ScrapeAndDownloadImages(Resource):
+    @api.expect(csv_upload_parser)
+    @api.doc(description='Upload a CSV file with URLs to scrape images and download them.')
+    async def post(self):
+        """
+        Uploads a CSV file and triggers image scraping and downloading.
+        """
+        args = csv_upload_parser.parse_args()
+        uploaded_file: FileStorage = args['file']
+
+        if not uploaded_file.filename.endswith('.csv'):
+            api.abort(400, "Invalid file type. Please upload a CSV file.")
+        
         urls_to_scrape = []
-        # Read the CSV file
-        csv_content = file.stream.read().decode('utf-8').splitlines()
+        csv_content = uploaded_file.stream.read().decode('utf-8').splitlines()
         csv_reader = csv.reader(csv_content)
         for row in csv_reader:
-            if row: # Ensure row is not empty
+            if row:
                 url = row[0].strip()
                 if not url.startswith(('http://', 'https://')):
                     url = 'https://' + url
                 urls_to_scrape.append(url)
         
         if not urls_to_scrape:
-            return jsonify({"message": "No URLs found in the CSV file"}), 200
+            return {"message": "No URLs found in the CSV file"}, 200
 
         logger.info(f"Received {len(urls_to_scrape)} URLs from CSV. Starting image download process.")
+        # Note: Using asyncio.run_coroutine_threadsafe if running in a sync Flask context,
+        # but with hypercorn (which handles async), direct await is fine in an async resource.
         results = await asyncio.gather(*[scrape_and_save_images(url) for url in urls_to_scrape])
         return jsonify(results), 200
-    else:
-        return jsonify({"error": "Invalid file type. Please upload a CSV file."}), 400
 
+# Optional: Add a simple home page to see if the server is running
+@app.route('/')
+def home():
+    return "Welcome to the Image Scraper API! Go to <a href='/docs'>/docs</a> for the Swagger UI."
+
+# --- Main execution block ---
 if __name__ == "__main__":
     import hypercorn.asyncio
     from hypercorn.config import Config
@@ -146,8 +168,7 @@ if __name__ == "__main__":
     config.bind = ["0.0.0.0:5000"]
 
     print("---")
-    print("Flask app is running. Send a POST request to /scrape-and-download-images-from-csv with your CSV file.")
-    print("Example: curl -X POST -F 'file=@your_urls.csv' [http://127.0.0.1:5000/scrape-and-download-images-from-csv](http://127.0.0.1:5000/scrape-and-download-images-from-csv)")
+    print("Flask app is running. Open your browser to http://127.0.0.1:5000/docs for Swagger UI.")
     print("---")
 
     asyncio.run(hypercorn.asyncio.serve(app, config))
